@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//speed 5->7
+
 public class Movement : MonoBehaviour {
 
     private Rigidbody2D rb;
-    private float speed=5;
+    private float speed=7;
     private float hori, verti;
 
 	// Use this for initialization
